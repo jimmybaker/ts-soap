@@ -1,0 +1,34 @@
+{
+  "name": "ts-soap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && mocha -r ts-node/register test/**.ts"
+  },
+  "keywords": [],
+  "author": "Jimmy Baker <jimmyebaker@gmail.com> (https://twitter.com/jimmybaker)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/assert": "^1.4.0",
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.116",
+    "@types/sax": "^1.0.1",
+    "@types/strip-bom": "^3.0.0",
+    "assert": "^1.4.1",
+    "fetch-everywhere": "^1.0.5",
+    "lodash": "^4.17.11",
+    "sax": "^1.2.4",
+    "strip-bom": "^3.0.0",
+    "url-parse": "^1.4.3",
+    "uuid4": "^1.1.4"
+  }
+}
